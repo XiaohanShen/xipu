@@ -11,6 +11,9 @@
     <link id="js_skinStyle" href="static/css/font-awesome.min.css" rel="stylesheet" />
     <script type="text/javascript" src="static/js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="static/themes/default/js/404.js"></script>
+    <script type="text/javascript" media="(max-width: 1190px)" src="static/themes/default/js/transit.js"></script>
+    <script type="text/javascript" media="(max-width: 1190px)" src="static/themes/default/js/touchSwipe.js"></script>
+    <script type="text/javascript" media="(max-width: 1190px)" src="static/themes/default/js/simpleSlider.js"></script>
 </head>
 <body>
 <div class="header-bg">
@@ -32,18 +35,50 @@
             <input type="submit" value="百度一下" id="searchSubmit">
         </form>
 </div>
-<div class="block-bg dashboard-bg">
+<div class="block-bg slider-bg">
     <div class="block-center">
-        <ul class="dashboard">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <div class='slider'>
+            <div class='slide'>
+                <div class='slidecontent'>
+                    <a href=""><img src="static/images/slider-1.jpg"><a>
+                </div>
+            </div>
+            <div class='slide' >
+                <div class='slidecontent'>
+                    <a href=""><img src="static/images/slider-1.jpg"><a>
+                </div>
+            </div>
+            <div class='slide' >
+                <div class='slidecontent'>
+                    <a href=""><img src="static/images/slider-1.jpg"><a>
+                </div>
+            </div>
+            <div class='slide' >
+                <div class='slidecontent'>
+                    <a href=""><img src="static/images/slider-1.jpg"><a>
+                </div>
+            </div>
+            <div class='slide' >
+                <div class='slidecontent'>
+                    <a href=""><img src="static/images/slider-1.jpg"><a>
+                </div>
+            </div>
+            <div class='slide' >
+                <div class='slidecontent'>
+                    <a href=""><img src="static/images/slider-1.jpg"><a>
+                </div>
+            </div>
+            <div class='slide' >
+                <div class='slidecontent'>
+                    <a href=""><img src="static/images/slider-1.jpg"><a>
+                </div>
+            </div>
+            <div class='slide' >
+                <div class='slidecontent'>
+                    <a href=""><img src="static/images/slider-1.jpg"><a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="block-bg">
@@ -109,6 +144,92 @@
                     <li><a href="">中纪委官网谈追逃:赃款糟蹋完了也得把人弄回来</a></li>
                     <li><a href="">揭秘山西官员"真人秀"节目 省长李小鹏敲定名称</a></li>
                 </ul>
+            </li>
+        </ul>
+    </div>
+</div><div class="block-bg">
+    <div class="block-center">
+        <div class="web-title">名品导航</div>
+        <ul class="web2-list">
+            <li>
+                <div class="tvicon tvi-1"></div>
+                <a href="">优酷网</a>
+                <i class="fa fa-fire tag"></i>
+            </li>
+            <li>
+                <div class="tvicon tvi-2"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="tvicon tvi-1"></div>
+                <a href="">优酷网</a>
+                <i class="fa fa-fa tag"></i>
+            </li>
+            <li>
+                <div class="tvicon tvi-3"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="tvicon tvi-1"></div>
+                <a href="">优酷网</a>
+                <i class="fa fa-h-square tag"></i>
+            </li>
+            <li>
+                <div class="space"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="space"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="space"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="tvicon tvi-1"></div>
+                <a href="">优酷网</a>
+                <i class="fa fa-bookmark tag"></i>
+            </li>
+            <li>
+                <div class="space"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="space"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="space"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="space"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="tvicon tvi-3"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="tvicon tvi-3"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="tvicon tvi-4"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="tvicon tvi-2"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="tvicon tvi-3"></div>
+                <a href="">优酷网</a>
+            </li>
+            <li>
+                <div class="space"></div>
+                <a href="">优酷网</a>
             </li>
         </ul>
     </div>
@@ -204,5 +325,10 @@ $(".search-selection").on('click', 'img', function(){
         $("#searchInput").focus();
     }
  });
+$(document).ready(function(){
+    if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+      $(".slider").simpleSlider();
+    }
+});
 </script>
 </html>

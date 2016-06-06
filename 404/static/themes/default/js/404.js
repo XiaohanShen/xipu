@@ -4,9 +4,9 @@
 * ==========================================
 */
 
-$(".search-link").on('click', function(){
-  	alert("");
- });
+// $(".search-link").on('click', function(){
+//   	alert("");
+//  });
 
   // $(window).on('scroll', function(){
   // 	alert("");
