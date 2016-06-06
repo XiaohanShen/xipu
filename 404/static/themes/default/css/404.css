@@ -197,7 +197,7 @@
 }
 .web-list li{
 	width: 100%;
-	line-height: 1.5em;
+	line-height: 2em;
 }
 .web-sub-list{
 	clear: both;
@@ -207,6 +207,12 @@
 	float: left;
 	width: 10%;
 	text-align: left;
+}
+.web-list li:nth-child(2n){
+	background: #f9f9f9;
+}
+.web-sub-list li:nth-child(2n){
+	background: none;
 }
 .web-sub-list li a,.recog-sub-list li a{
 	color: #666666;
@@ -253,6 +259,14 @@
 	padding: 5px 1%;
 	line-height: 2em;
 	position: relative;
+}
+@media screen and (max-device-width: 1190px){
+	.web2-list li{
+		width: 25%;
+		padding: 5px 1%;
+		line-height: 2em;
+		position: relative;
+	}
 }
 .web2-list li .tag{
 	position: absolute;
