@@ -1,0 +1,176 @@
+/* ====================
+     公共样式
+     provide by Sophie
+     ==================== */
+
+html {
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    line-height: 20px;
+    margin: 0px 0 0 0;
+    width: 100%;
+    padding: 0;
+    color: #5e4a3f;
+}
+div {
+    margin: 0 auto;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+img,
+p {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+}
+a {
+    color: #10b6f4;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:link,
+a:hover,
+a:active,
+a:focus {
+    color: #0fb8f6;
+    outline: 0;
+    -moz-outline-style: none;
+}
+table,
+table td,
+table th {
+    padding: 0;
+    border: 0;
+    margin: 0
+}
+ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.tl {
+    text-align: left;
+}
+.tc {
+    text-align: center;
+}
+.tr {
+    text-align: right;
+}
+.dis {
+    display: block;
+}
+.inline {
+    display: inline;
+}
+.none {
+    display: none;
+}
+.clear {
+    clear: both;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+*html .clearfix {
+    height: 1%;
+}
+*+html .clearfix {
+    height: 1%;
+}
+/*英文强制换行*/
+
+.word {
+    word-break: break-all;
+}
+/*边框 背景*/
+
+.br_blue {
+    border: 1px solid #10b6f4;
+}
+.bg_blue{
+  background-color: #10b6f4;
+}
+.bg_orange{
+  background-color: #e46c30 !important;
+}
+.blank {
+    height: 8px;
+    line-height: 8px;
+    clear: both;
+    visibility: hidden;
+}
+.price{
+  color: #e46c30;
+}
+
+/*布局*/
+.area_l {
+    width: 215px;
+    float: left;
+    overflow: hidden
+}
+.area_r {
+    width: 785px;
+    float: right;
+    overflow: hidden;
+    min-height: 400px
+}
+.block_line {
+    width: 100%;
+    min-width: 1009px;
+}
+.center_container {
+    width: 1009px;
+    height: auto;
+    margin: 0 auto;
+}
+.btn_common{
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #10b6f4;
+  color: #fff !important;
+  border: none;
+  display: inline-block;
+}
+.btn_white{
+  background-color: #fff;
+  color: #10b6f4;
+}
+.btn_exwild{
+  min-width: 100px;
+}
